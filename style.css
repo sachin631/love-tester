@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: white;
+    margin:0%;
+    padding:0%;
+}
+#first_div{
+    width: 20rem;
+    height:15rem;
+    background-color: orange;
+    margin-left: 3rem;
+}
+#main_div{
+    text-align: center;
+    width: 25rem;
+    height:36rem;
+    background-color:palevioletred;
+    margin-left: 35%;
+
+}
+@media(max-width:320px){
+    #main_div{
+        text-align:center;
+        width: 30vh;
+        height:100%;
+        background-color:palevioletred;
+        margin-right: 100%;
+        
+    }
+    #first_div{
+        width: 100px;
+        height:100%;
+        background-color: orange;
+       
+    }
+}
